@@ -18,23 +18,23 @@ Este projeto usa Python, Tesseract OCR e OpenCV para extrair texto de imagens. E
 
 3. Instale as bibliotecas Python necessárias usando o pip:
 
-4 - execute pip install opencv-python pytesseract
+4. execute pip install opencv-python pytesseract
 
-5 - Baixe o arquivo por.traineddata a partir deste link: https://github.com/tesseract-ocr/tessdata/blob/main/por.traineddata
+5. Baixe o arquivo por.traineddata a partir deste link: https://github.com/tesseract-ocr/tessdata/blob/main/por.traineddata
 
-6 - Copie o arquivo por.traineddata para o diretório tessdata no diretório de instalação do Tesseract OCR.
+6. Copie o arquivo por.traineddata para o diretório tessdata no diretório de instalação do Tesseract OCR.
 
 ## Uso
 
 Para executar o projeto, siga os passos abaixo:
 
-1 - Coloque a imagem que deseja extrair texto na pasta img.
+1. Coloque a imagem que deseja extrair texto na pasta img.
 
-2 - No arquivo app.py, atualize o caminho da imagem conforme necessário:
+2. No arquivo app.py, atualize o caminho da imagem conforme necessário:
 
 imagem = r"C:\Projeto Extrator de Imagem\img\image-to-wiki-wBush.png"
 
-3 - Execute o arquivo app.py no terminal ou prompt de comando:  python app.py 
+3. Execute o arquivo app.py no terminal ou prompt de comando:  python app.py 
 
 
 ## O texto extraído da imagem será exibido no terminal ou na saída do seu IDE.
